@@ -20,8 +20,8 @@ breadcrumbs:
       label: menu.updates
 contrast_type: default
 country:
-  name: Australia
-  adjective: Australian
+  name: San Diego Region
+  adjective: San Diego Region
 create_goals:
   layout: goal-by-target-vertical
   previous_next_links: false
@@ -70,9 +70,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://twitter.com/SANDAG'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://www.facebook.com/SANDAGregion/'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
