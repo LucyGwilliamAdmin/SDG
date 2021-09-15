@@ -23,7 +23,7 @@ country:
   name: San Diego Region
   adjective: San Diego Region
 create_goals:
-  layout: goal-by-target-vertical
+  layout: goal-by-target
   previous_next_links: false
   goals: []
 create_indicators:
@@ -62,9 +62,9 @@ disclaimer:
   phase: ''
   message: ''
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: jzaj@sandag.org
+  suggestions: jzaj@sandag.org
+  functional: jzaj@sandag.org
 environment: staging
 footer_language_toggle: none
 footer_menu:
@@ -76,31 +76,8 @@ footer_menu:
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
-frontpage_cards:
-  - title: frontpage.download_all
-    content: ''
-    include: components/download-all-data.html
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: Sustainable Development Goals for the San Diego Region
   description: >-
     Click on each goal for our Sustainable Development Goal global indicator
     data.
@@ -140,8 +117,8 @@ indicator_metadata_form:
   translation_link: ''
   language: ''
   scopes:
+    - Regional
     - national
-    - global
   exclude_fields: []
   translated: false
 languages:
